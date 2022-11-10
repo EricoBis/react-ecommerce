@@ -7,7 +7,7 @@ import {Img} from "../style";
 
 function ProductCard({ value }) {
   const {addToCart} = useContext(CartContext);
-  const image = `./img/${value.imgUrl}`
+  const image = `img/${value.imgUrl}`
 
   return (
     <Card>

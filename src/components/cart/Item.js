@@ -6,7 +6,7 @@ import { IoMdRemoveCircleOutline } from "react-icons/io";
 
 function Item({ value }) {
   const { removeFromCart } = useContext(CartContext);
-  const image = `./img/${value.imgUrl}`
+  const image = `img/${value.imgUrl}`
 
   return (
     <CartItem>
