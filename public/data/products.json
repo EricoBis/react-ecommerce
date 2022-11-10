@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+          "id": 1,
+          "imgUrl": "emchamas.jpg",
+          "title": "Em chamas",
+          "price": 39.99
+        },
+        {
+          "id": 2,
+          "imgUrl": "harry3.jpg",
+          "title": "Harry Potter: 3",
+          "price": 39.99
+        },
+        {
+          "id": 3,
+          "imgUrl": "spyx.jpg",
+          "title": "Spy X Family Vol. 1 ",
+          "price": 44.99
+        },
+        {
+          "id": 4,
+          "imgUrl": "percyj.jpg",
+          "title": "The Lightning Thief",
+          "price": 34.75
+        }
+      ]
+}
