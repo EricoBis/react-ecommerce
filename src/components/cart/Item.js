@@ -6,12 +6,12 @@ import { IoMdRemoveCircleOutline } from "react-icons/io";
 
 function Item({ value }) {
   const { removeFromCart } = useContext(CartContext);
-  const image = `img/${value.imgUrl}`
+  const url = `img/${value.imgUrl}`
 
   return (
     <CartItem>
       <Flex dir="row">
-        <ItemImg src={image} alt=""></ItemImg>
+        <ItemImg src={url} alt=""></ItemImg>
         <Flex dir={"column"} align={"flex-end"}>
           <Flex dir={"row"} align={"flex-start"} justify={"space-between"}>
             <ItemTitle>{value.title}</ItemTitle>
