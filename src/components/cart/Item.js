@@ -30,9 +30,3 @@ function Item({ value }) {
 }
 
 export default Item;
-
-/*<div>
-<button className="item-operator-btn"  onClick={() => changeQuantity(value.id, '-')}>-</button>
-<p>{value.quantity}</p>
-<button className="item-operator-btn" onClick={() => changeQuantity(value.id, '+')}>+</button>
-</div>*/
